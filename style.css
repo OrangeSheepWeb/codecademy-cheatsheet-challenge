@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header {
+    position:sticky;
+    background-color: rgb(180, 180, 180);
+    width:100%;
+    top:0px;
+    padding-bottom:10px;
+}
+
+#html-tag-main, #css-property-main {
+    padding-top:90px;
+    margin-top: -90px;
+}
+
+.title {
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+}
+.orange {
+    color: rgb(255, 135, 0);
+}
+
+.html-tag, .css-property {
+    text-align: center;
+    margin: 20px auto;
+}
+
+table {
+    margin: 15px auto;
+    min-width: 70%;
+    max-width: 70%;
+}
+
+thead th {
+    padding:10px;
+}
+
+tbody td, footer {
+    font-family: 'Raleway', sans-serif;
+}
+
+thead tr th, h1, h2, h3, .button-ref a {
+    font-family: 'Oswald', sans-serif;
+}
+tbody tr td:first-child {
+    font-family: 'Fira Mono', monospace;
+}
+
+.button-ref {
+    margin-top:10px;
+}
+.button-ref a{
+    padding:5px 15px;
+    text-decoration: none;
+    background-color: rgb(7, 172, 183);
+    border-radius: 15px;
+    color:#fff;
+    border: ;
+}
+
+.html-tag thead {
+    background-color: rgb(255, 135, 0);
+    color:rgb(255, 254, 254);
+}
+
+.css-property thead {
+    background-color: rgb(0, 31, 169);
+    color:rgb(255, 254, 254);
+}
+
+td {
+    padding:20px 15px;
+}
+
+tbody tr:nth-child(2n-1){
+    background-color: rgb(180, 180, 180);
+}
+
+tbody tr:nth-child(2n){
+    background-color: rgb(106, 163, 188);
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    min-height:20px;
+    width:100%;
+    background-color: rgb(28, 28, 28);
+    text-align: center;
+    padding: 20px 20px;
+}
+
+footer p {
+    color:#fff;
+}
