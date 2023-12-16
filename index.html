@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 & CSS: Cheat Sheet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Oswald:wght@400;500;600;700&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <header>
+        <!--Titolo e sottotitolo con header fisso e Navbar sticky-->
+        <section class="title">
+            <h1>HTML 5 & CSS</h1>
+            <h3>Cheat sheet for beginner</h3>
+            <nav class="menu">
+                <ul class="elements">
+                    <li class="button-ref"><a href="#html-tag-main">HTML Tags</a></li>
+                    <li class="button-ref"><a href="#css-property-main">CSS Properties</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <!--Tabelle secondo la struttura indicata -->
+        <section id="html-tag-main">
+            <section class="html-tag">
+                <h2 class="element-title">Page headers tags &lt;h1&gt; ... &lt;h6&gt;</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th> 
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="special">&lt;h1&gt;</td>
+                            <td>Header for page title</td>
+                            <td>This tag should use only to indicate the main title of the page.</td>
+                        </tr>
+                        <tr>
+                            <td class="special">&lt;h2&gt;</td>
+                            <td>Header tag for Subtitle</td>
+                            <td>This tag should be use only to indentifying the main section topic.</td>
+                        </tr>
+                        <tr>
+                            <td class="special">&lt;h3&gt;</td>
+                            <td>Header tag h3</td>
+                            <td>This tag should be use highlight some topic into the page.</td>
+                        </tr>
+                        <tr>
+                            <td class="special">&lt;h4&gt;</td>
+                            <td>Header tag h4</td>
+                            <td>This tag should be use highlight some topic into the page.</td>
+                        </tr>
+                        <tr>
+                            <td class="special">&lt;h5&gt;</td>
+                            <td>Header tag h5</td>
+                            <td>This tag should be use highlight some topic into the page.</td>
+                        </tr>
+                        <tr>
+                            <td class="special">&lt;h6&gt;</td>
+                            <td>Header tag h6</td>
+                            <td>This tag should be use highlight some topic into the page.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="html-tag">
+                <h2 class="element-title">&lt;table&gt; tag</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th> 
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="special">&lt;thead&gt;</td>
+                            <td>Table Header</td>
+                            <td>This tag define the table header for all table defined.</td>
+                        </tr>
+                        <tr>
+                            <td class="special">&lt;tbody&gt;</td>
+                            <td>Table Body</td>
+                            <td>This is the tag that contains all table data with cells.</td>
+                        </tr>
+                        <tr>
+                            <td class="special">&lt;td&gt;</td>
+                            <td>Single table data</td>
+                            <td>This tag is the single cells inside the table</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </section>
+        <section id="css-property-main">
+            <section class="css-property">
+                <h2 class="element-title">Background elements properties</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Property/Attribute</th>
+                        <th>Value</th>
+                        <th>Description</th> 
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="special">background-color</td>
+                            <td>Color on Hex format #FFFFF; or rgb(rrr,ggg,bbb); value</td>
+                            <td>Background color for the element selected</td>
+                        </tr>
+                        <tr>
+                            <td class="special">background-image</td>
+                            <td>url('../relative path to the image');</td>
+                            <td>Set an image as background of an element</td>
+                        </tr>
+                        <tr>
+                            <td class="special">background-repeat</td>
+                            <td>repeat-x, repeat-y, no-repeat</td>
+                            <td>Specifies how background images are tiled after they have been sized and positioned.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="css-property">
+                <h2 class="element-title">Margin, Padding & Border</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Property/Attribute</th>
+                        <th>Value</th>
+                        <th>Description</th> 
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="special">margin</td>
+                            <td>4 values in px. Top, Right, Bottom, Left (Clockwise)</td>
+                            <td>Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits.</td>
+                        </tr>
+                        <tr>
+                            <td class="special">padding</td>
+                            <td>4 values in px. Top, Right, Bottom, Left (Clockwise)</td>
+                            <td>Shorthand property to set values for the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.</td>
+                        </tr>
+                        <tr>
+                            <td class="special">border</td>
+                            <td>Width, style and color</td>
+                            <td>Shorthand property for setting border width, style, and color.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <!--Chiusura com Made with love by MI-->
+        <section class="final">
+            <p>Cheat sheet</p>
+            <p>made with <span class="orange">&#9829;</span> by Matt</p>
+        </section>
+    </footer>
+</body>
+</html>
